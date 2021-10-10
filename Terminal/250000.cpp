@@ -258,7 +258,7 @@ int main()
 			else
 				cout << "У вас стоит режим медленной зарядки " << endl;
 			cout << "Уровень заряда вашей машины: " << FileArray[mashNum] << "%" << endl;
-			cout << "Примерное время ожидания: " << timecheck(FileArray, Poryadok, Blatnie, value, mashNum, Slots_Count, kolich) << endl;
+			cout << "Примерное время ожидания: " << timecheck(FileArray, Poryadok, Blatnie, value, mashNum, Slots_Count, kolich) << " часа" << endl;
 		}
 		StationArray = station(value, Slots_Count, FileArray, Poryadok, Blatnie, got_ind);
 		
